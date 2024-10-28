@@ -21,6 +21,7 @@ int main(){
 
     int arr[]={1,2,4,6,8};
     int n=sizeof(arr)/sizeof(arr[0]);
+    int target=6;
     cout<<"target found at index:"<<bsRucursion(arr,0,n-1,target);
     return 0;
 }
